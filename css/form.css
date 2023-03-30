@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.cover-image {
+  /* width: 40%; */
+  background-color: aquamarine;
+  /* position: relative; */
+  overflow: hidden;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.cover-image > img {
+  /* position: relative; */
+  width: 100%;
+}
+
+.cover-logo {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  /* top: 12%;
+  left: 12%; */
+  align-items: center;
+  background-color: rgba(56, 56, 56, 0.442);
+}
+
+.cover-logo > img {
+  width: 10%;
+}
+
+.form {
+  /* padding: 3rem; */
+}
+
+.form-description {
+  padding: 3rem;
+}
+
+.form-description > p {
+  font-size: 24px;
+}
+
+.form-field {
+  background-color: white;
+  box-shadow: 2px 4px 6px rgb(203, 202, 202);
+}
+
+.form-field h1 {
+  padding: 2rem 3rem;
+}
+
+form {
+  padding: 0 3rem;
+  display: flex;
+  gap: 4;
+  flex-wrap: wrap;
+}
+
+.form-field .input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  margin-right: 8rem;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  border: 1px solid #e5e7eb;
+  width: 13rem;
+  padding: 0.5rem 1rem;
+}
+
+input:focus {
+}
+
+.create {
+  padding: 0 3rem;
+}
+
+button {
+  padding: 1rem 3rem;
+  margin: 2rem 0;
+  background-color: #596d48;
+  color: white;
+  /* border-radius: 12px; */
+}
+
+strong {
+  color: #596d48;
+}
+
+p {
+  font-weight: 300;
+}
